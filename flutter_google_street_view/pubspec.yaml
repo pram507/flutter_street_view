@@ -7,6 +7,11 @@ environment:
   sdk: '>=2.12.0 <4.0.0'
   flutter: ">=3.0.0"
 
+
+analyzer:
+  errors:
+    undefined_prefixed_name: ignore
+
 dependencies:
   flutter:
     sdk: flutter
@@ -15,8 +20,9 @@ dependencies:
   meta: ^1.3.0
   kotlin_scope_function: ^1.0.0
   flutter_plugin_android_lifecycle: ^2.0.1
-  google_maps: ^6.1.0
+  google_maps: ^7.1.0   
   street_view_platform_interface: ^1.0.8
+  web: ^0.5.1
 
 dev_dependencies:
   flutter_test:
